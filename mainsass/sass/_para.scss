@@ -1,0 +1,22 @@
+$font: "Monotype Corsiva", Arial, sans-serif;
+@mixin mq-360{
+	@media screen and (max-width:360px){
+	@content;
+	}
+}
+@mixin mq-587{
+	@media screen and (miin -width:361px) and (max-width:587px){
+	@content;
+	}
+}
+
+.intro{
+	font-family:$font;
+	font-size:2em;
+	@include mq-360{
+		font-size:18px;
+	}
+	@include mq-587{
+		font-size:24px;
+	}
+}

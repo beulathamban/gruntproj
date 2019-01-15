@@ -1,0 +1,95 @@
+/*white*/
+.navigation {
+  background: #0678BF;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 10px;
+}
+.navigation li {
+  display: inline;
+  padding: 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+.navbar li a:hover {
+  background: linear-gradient(blue, red);
+}
+
+.carousel-caption {
+  font-family: "Verdana", Arial, sans-serif;
+  font-size: 2em;
+}
+@media screen and (max-width: 360px) {
+  .carousel-caption {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 587px) {
+  .carousel-caption {
+    font-size: 24px;
+  }
+}
+
+.images {
+  background-color: #0678BF;
+  width: 70%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
+}
+
+.img-responsive {
+  padding: 45px 74px;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.intro {
+  font-family: "Monotype Corsiva", Arial, sans-serif;
+  font-size: 2em;
+}
+@media screen and (max-width: 360px) {
+  .intro {
+    font-size: 18px;
+  }
+}
+@media screen and (miin -width: 361px) and (max-width: 587px) {
+  .intro {
+    font-size: 24px;
+  }
+}
+
+.koala-tut, .heading-class {
+  width: 400px;
+  padding: 20px 0;
+  text-align: center;
+  border: 1px solid #81c584;
+  border-radius: 7px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ccc;
+}
+
+.koala-tut:hover, .heading-class:hover {
+  background: linear-gradient(green, #ef15be);
+}
+
+.heading-class {
+  width: 500px;
+}
+
+/*# sourceMappingURL=main.css.map */
